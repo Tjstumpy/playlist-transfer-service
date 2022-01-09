@@ -1,0 +1,46 @@
+.wrapper{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    padding: 10px;
+    margin: 20px;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color:#282c34;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotify{
+    width: 125px;
+    height: auto;
+}
+
+.youtube{
+    width: 125px;
+    height: auto;
+}
+
+.btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid teal;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-top: 10px;
+    transition: 0.3s;
+}.btn:hover{
+    background-color: teal;
+    cursor: pointer;
+}
